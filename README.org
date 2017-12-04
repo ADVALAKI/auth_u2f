@@ -1,0 +1,23 @@
+* auth_u2f
+This is an Odoo ([[https://odoo.com][website]], [[https://github.com/odoo/odoo][GitHub]]) module implementing two-factor
+authentication through U2F. This module is meant for Odoo 11, which is
+the most recent LTS version.
+** How to use
+After logging in set up a U2F device through the user preferences:
+
+[[doc/preferences.png]]
+
+Click on 'Manage 2-step verification':
+
+[[doc/change_my_preferences.png]]
+
+Click 'Create', fill in a name and scan your device.
+
+Afterwards a system administrator can view and administer U2F devices
+in the U2F tab of the user form view accessible through Settings >
+Users & Companies > Users.
+** Notes
+- Currently this has only been tested with Google Chrome. Firefox
+  supports U2F partially and will be supported by this module
+  eventually.
+- U2F requires HTTPS, it does not work over HTTP.
