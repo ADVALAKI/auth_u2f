@@ -21,7 +21,10 @@
     'depends': ['base', 'web'],
     'category': 'Extra Tools',
     'description': """Provides an additional layer of security by authenticating with a
-device that supports U2F like the Yubico Yubikeys.""",
+device that supports U2F like the Yubico Yubikeys.
+
+For documentation and source code see https://github.com/jorenvo/auth_u2f.
+""",
     'license': 'LGPL-3',
     'data': [
         'views/u2f_device.xml',
