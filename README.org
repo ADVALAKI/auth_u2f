@@ -1,3 +1,7 @@
+/This repository is no longer maintained./
+
+/Thanks to the efforts of [[https://www.initos.com/][initOS GmbH]] this module is now maintained by
+the [[https://github.com/OCA/server-auth/tree/11.0/auth_u2f][Odoo Community Association]]./
 * auth_u2f
 This is an Odoo ([[https://odoo.com][website]], [[https://github.com/odoo/odoo][GitHub]]) module implementing two-factor
 authentication through U2F. This module is meant for Odoo 11, which is
